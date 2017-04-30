@@ -50,7 +50,7 @@ public class Carta {
                 break;
         }
         if (bocaAbajo) {
-            x = "CARTA";
+            x = "xxCARTAxx";
         }
         return x;
     }

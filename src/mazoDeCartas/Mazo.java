@@ -14,28 +14,28 @@ public class Mazo {
         puntero = 0;
         int pos;
         mazo = new Carta[52];
-        for (int i = 0; i < 13; i++) {
+        for (int i = 1; i <= 13; i++) {
             pos = mezclar();
             while (mazo[pos] != null) {
                 pos = mezclar();
             }
             mazo[pos] = new Carta("corazón", i);
         }
-        for (int i = 0; i < 13; i++) {
+        for (int i = 1; i <= 13; i++) {
             pos = mezclar();
             while (mazo[pos] != null) {
                 pos = mezclar();
             }
             mazo[pos] = new Carta("trébol", i);
         }
-        for (int i = 0; i < 13; i++) {
+        for (int i = 1; i <= 13; i++) {
             pos = mezclar();
             while (mazo[pos] != null) {
                 pos = mezclar();
             }
             mazo[pos] = new Carta("picas", i);
         }
-        for (int i = 0; i < 13; i++) {
+        for (int i = 1; i <= 13; i++) {
             pos = mezclar();
             while (mazo[pos] != null) {
                 pos = mezclar();
